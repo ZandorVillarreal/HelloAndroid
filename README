@@ -1,0 +1,16 @@
+MainActivity:
+    - Inherit from ComponentActivity
+
+    onCreate method:
+        - Call super.onCreate
+        - Use setContent to define the UI layout
+        - Apply HelloAndroidTheme
+        - Inside the theme, call Greeting function with "Android"
+
+Greeting function (Composable):
+    - Accept a string parameter called name
+    - Display "Hello, name!" as text on the screen
+
+GreetingPreview function (Composable):
+    - Apply HelloAndroidTheme
+    - Call Greeting with "Android" to show a preview
